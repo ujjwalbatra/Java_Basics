@@ -8,7 +8,7 @@ public class call_by_value {
 
         System.out.println("a and b before call: " + a + " " + b);
         ob.meth(a,b);
-        System.out.println("a and b before call: " + a + " " + b);
+        System.out.println("a and b after call: " + a + " " + b);
     }
 }
 
