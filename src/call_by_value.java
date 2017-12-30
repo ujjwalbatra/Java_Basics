@@ -17,4 +17,5 @@ class Test {
         i *= 2;
         j /= 2;
     }
+    //warning : i and j are not being used.
 }
