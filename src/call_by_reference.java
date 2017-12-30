@@ -14,7 +14,7 @@ class cbr{
         a = i;
         b = j;
     }
-
+    //passing object as parameter for call by reference.
     void meth(cbr o){
         o.a *= 2;
         o.b /= 2;
