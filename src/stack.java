@@ -37,7 +37,7 @@ class Stck {
 
     //push an element onto the stack.
     void push(int n){
-        if (tos == 9)  System.out.println("Stack Overflow");
+        if (tos == stck.length - 1)  System.out.println("Stack Overflow");
         else stck[++tos] = n;
 
     }
