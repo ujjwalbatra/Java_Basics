@@ -5,6 +5,9 @@ public class returning_objects {
         ob2 = ob1.inc_by_ten();
         System.out.println("ob1.a: " + ob1.a);
         System.out.println("ob2.a: " + ob2.a);
+        ob2 = ob2.inc_by_ten();
+        System.out.println("ob2.a after second increase: " + ob2.a);
+
     }
 }
 
